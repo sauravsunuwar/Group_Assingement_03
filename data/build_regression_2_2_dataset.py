@@ -16,15 +16,15 @@ import pandas as pd
 # - All predictors must contain information available
 #   BEFORE the target match
 #
-# Candidate predictors:
+# Final predictors:
 # 1. avg_goals_scored_before
 # 2. opponent_avg_goals_conceded_before
-# 3. scoring_match_rate_before
-# 4. opponent_clean_sheet_rate_before
-# 5. team_fifa_points
-# 6. opponent_fifa_points
-# 7. scoring_consistency_before
-# 8. opponent_points_per_match_before
+# 3. team_fifa_points
+# 4. opponent_fifa_points
+# 5. win_rate_before
+# 6. opponent_scoring_match_rate_before
+# 7. matches_played_before
+# 8. opponent_clean_sheet_rate_before
 # ============================================================
 
 
@@ -92,19 +92,19 @@ predictors = [
 
     "opponent_avg_goals_conceded_before",
 
-    "scoring_match_rate_before",
-
-    "opponent_clean_sheet_rate_before",
-
     "team_fifa_points",
 
     "opponent_fifa_points",
 
-    "scoring_consistency_before",
+    "win_rate_before",
 
-    "opponent_points_per_match_before"
+    "opponent_scoring_match_rate_before",
+
+    "matches_played_before",
+
+    "opponent_clean_sheet_rate_before"
+
 ]
-
 
 print("\nTarget:")
 print(target)

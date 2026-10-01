@@ -124,17 +124,18 @@ predictors = [
 
     "opponent_avg_goals_conceded_before",
 
-    "scoring_match_rate_before",
-
-    "opponent_clean_sheet_rate_before",
-
     "team_fifa_points",
 
     "opponent_fifa_points",
 
-    "scoring_consistency_before",
+    "win_rate_before",
 
-    "opponent_points_per_match_before"
+    "opponent_scoring_match_rate_before",
+
+    "matches_played_before",
+
+    "opponent_clean_sheet_rate_before"
+
 ]
 
 
