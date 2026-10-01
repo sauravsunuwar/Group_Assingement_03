@@ -132,7 +132,7 @@ predictors = [
 
     "opponent_scoring_match_rate_before",
 
-    "matches_played_before",
+    "avg_goal_difference_before",
 
     "opponent_clean_sheet_rate_before"
 

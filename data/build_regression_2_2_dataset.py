@@ -23,7 +23,7 @@ import pandas as pd
 # 4. opponent_fifa_points
 # 5. win_rate_before
 # 6. opponent_scoring_match_rate_before
-# 7. matches_played_before
+# 7. avg_goal_difference_before
 # 8. opponent_clean_sheet_rate_before
 # ============================================================
 
@@ -100,7 +100,7 @@ predictors = [
 
     "opponent_scoring_match_rate_before",
 
-    "matches_played_before",
+    "avg_goal_difference_before",
 
     "opponent_clean_sheet_rate_before"
 
